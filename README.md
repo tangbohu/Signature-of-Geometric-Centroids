@@ -20,6 +20,8 @@ Depth scans acquired from different views may contain nuisances such as noise, o
 *Figure 3*: Our reconstruction results. (a) Super Mario; (b) Frog; and (c) Stage scene.
 
 
+### Code
+please refer to https://tangbohu.github.io/SGC/index.html
 
 ### Citation
 If you find our work useful in your research, please consider citing:
