@@ -10,8 +10,17 @@ Depth scans acquired from different views may contain nuisances such as noise, o
 *Figure 1*: Constructing an SGC descriptor. (a) Construct a unique LRF from a spherical support centered at a feature point (in pink); (b) segment a cubical support centered at the feature point and aligned with the LRF; (c) voxelize the support and extract centroid features from non-empty voxels; the centroid color indicates point density in the voxel, where small and large densities are colored in blue and red respectively.
 
 
+
 ![prediction example1](https://tangbohu.github.io/SGC/images/match_pipeline.png)
+*Figure 2*: Matching two scans using SGC descriptors: (a) sampled feature points (in purple) on two input scans (only part of samples are shown for clarity); (b) calculated LRFs and descriptors; (c) a pair of matched descriptors; (d) match the two scans based on aligning the associated LRFs; and (e) refine the scan alignment using ICP.
+
+
+
 ![prediction example2](https://tangbohu.github.io/SGC/images/app_reconstru.png)
+*Figure 3*: Our reconstruction results. (a) Super Mario; (b) Frog; and (c) Stage scene.
+
+
+
 ### Citation
 If you find our work useful in your research, please consider citing:
 
