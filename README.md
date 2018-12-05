@@ -27,9 +27,9 @@ please refer to https://tangbohu.github.io/SGC/index.html
 If you find our work useful in your research, please consider citing:
 
     @article {Tang-2016-SGC,
-      title = {Signature of Geometric Centroids for 3D Local Shape Description and Partial Shape Matching},
-      author = {Keke Tang and Peng Song and Xiaoping Chen},
-      booktitle={Asian Conference on Computer Vision},
+     title = {Signature of Geometric Centroids for 3D Local Shape Description and Partial Shape Matching},
+     author = {Keke Tang and Peng Song and Xiaoping Chen},
+     booktitle={Asian Conference on Computer Vision},
      pages={311--326},
      year = {2016}
      }
