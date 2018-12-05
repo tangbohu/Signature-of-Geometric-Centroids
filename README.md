@@ -1,2 +1,29 @@
 # Signature-of-Geometric-Centroids
 Signature of Geometric Centroids for 3D Local Shape Description and Partial Shape Matching
+
+
+### Abstract
+Depth scans acquired from different views may contain nuisances such as noise, occlusion, and varying point density. We propose a novel Signature of Geometric Centroids descriptor, supporting direct shape matching on the scans, without requiring any preprocessing such as scan denoising or converting into a mesh. First, we construct the descriptor by voxelizing the local shape within a uniquely defined local reference frame and concatenating geometric centroid and point density features extracted from each voxel. Second, we compare two descriptors by employing only corresponding voxels that are both non-empty, thus supporting matching incomplete local shape such as those close to scan boundary. Third, we propose a descriptor saliency measure and compute it from a descriptor-graph to improve shape matching performance. We demonstrate the descriptor's robustness and effectiveness for shape matching by comparing it with three state-of-the-art descriptors, and applying it to object/scene reconstruction and 3D object recognition.
+
+### Citation
+If you find our work useful in your research, please consider citing:
+
+    @article {Tang-2016-SGC,
+      title = {Signature of Geometric Centroids for 3D Local Shape Description and Partial Shape Matching},
+      author = {Keke Tang and Peng Song and Xiaoping Chen},
+      booktitle={Asian Conference on Computer Vision},
+     pages={311--326},
+     year = {2016}
+     }
+
+    @article {Tang-2017-SGCRec,
+     title = {3D Object Recognition in Cluttered Scenes With Robust Shape Description and Correspondence Selection},
+     author = {Keke Tang and Peng Song and Xiaoping Chen},
+     journal={IEEE Access},
+     volume={5},
+     pages={1833--1845},
+     year={2017}
+    }
+    
+### License
+Our code is released under MIT License (see LICENSE file for details).
