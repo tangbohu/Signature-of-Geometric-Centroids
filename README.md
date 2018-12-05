@@ -7,6 +7,9 @@ Depth scans acquired from different views may contain nuisances such as noise, o
 
 
 ![prediction example](https://tangbohu.github.io/SGC/images/desc_constru.png)
+*Figure 1*: Constructing an SGC descriptor. (a) Construct a unique LRF from a spherical support centered at a feature point (in pink); (b) segment a cubical support centered at the feature point and aligned with the LRF; (c) voxelize the support and extract centroid features from non-empty voxels; the centroid color indicates point density in the voxel, where small and large densities are colored in blue and red respectively.
+
+
 ![prediction example1](https://tangbohu.github.io/SGC/images/match_pipeline.png)
 ![prediction example2](https://tangbohu.github.io/SGC/images/app_reconstru.png)
 ### Citation
